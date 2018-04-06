@@ -1,5 +1,6 @@
 .tickers {
   flex-direction: row;
+  flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
   display: inline-flex;
@@ -8,7 +9,6 @@
 
 .attribFooter {
   display: flex;
-  /* flex: 1 0 auto; */
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;

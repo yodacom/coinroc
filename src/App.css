@@ -1,8 +1,8 @@
 .App {
   min-height: 100%;
   text-align: center;
-  display:grid;
-  grid-template-rows: 1fr auto;
+  display:-webkit-flex;
+ flex-direction: column;
 }
 .App-header {
   background-color: #222;
@@ -10,4 +10,5 @@
   font-size: 1.25rem;
   margin: 0;
   padding: 1rem;
+  flex-direction: column;
 }
