@@ -1,0 +1,27 @@
+.tickers {
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  display: inline-flex;
+  margin-bottom: auto;
+}
+
+.attribFooter {
+  display: flex;
+  /* flex: 1 0 auto; */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-top: auto;
+}
+
+.attribLogo {
+  padding: 20px;
+  flex-direction: column;
+  align-self: flex-end;
+  flex-shrink: 0;
+
+}
+
+
