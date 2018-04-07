@@ -53,6 +53,15 @@ class Tickers extends Component {
           percent_change_1h: "0",
           percent_change_24h: "0",
           percent_change_7d: "0"
+        },
+        {
+          id: "ripple",
+          name: "Ripple",
+          symbol: "XRP",
+          price_usd: "1",
+          percent_change_1h: "0",
+          percent_change_24h: "0",
+          percent_change_7d: "0"
         }
       ]
     };
@@ -75,7 +84,8 @@ class Tickers extends Component {
           "ethereum",
           "litecoin",
           "eos",
-          "golem-network-tokens"
+          "golem-network-tokens",
+          "ripple"
         ];
         const result = response.data.filter(currency =>
           wanted.includes(currency.id)
@@ -94,15 +104,10 @@ class Tickers extends Component {
         <ul className="tickers">{tickers}</ul>
         <p>
           Information updated every 10 seconds courtesy of coinmarketcap.com</p>
-        <a href="https://www.coinbase.com/join/594066242c5bb500a80e1419" alt="Get Free Bitcoin" >Want $10 free BitCoin?  Use this referal link </a>
+        <a href="https://www.coinbase.com/join/594066242c5bb500a80e1419" alt="Get Free Bitcoin" >Want $10 free BitCoin?  Use this link </a>
 
-        <a href="http://jjblack.com" className="attribFooter" > <img src={YodacomLogo} className="attribLogo" alt="Yodacom.com" />Developed byYodacom</a>
+        <a href="http://jjblack.com" className="attribFooter" > <img src={YodacomLogo} className="attribLogo" alt="Yodacom.com" />Developed by Yodacom</a>
       </div>
-
-      // <div className="Media">
-      //   <img class="Media-figure" src={YodacomLogo} alt="Yodacom Logo">
-      //     <p class="Media-body">Developed by Yodacom</p>
-      // </div>
 
     );
   }
