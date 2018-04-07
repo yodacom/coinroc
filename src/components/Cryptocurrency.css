@@ -27,11 +27,11 @@
   background-color: #dfae8c;
   border-bottom: solid 4px #e94126;
 }
-.golem-network-tokens {
-  background-color: #1ebecf;
-  border-bottom: solid 4px #ebaf68;
-}
 .ripple {
   background-color: #f7931a;
   border-bottom: solid 4px #404849;
+}
+.golem-network-tokens {
+  background-color: #1ebecf;
+  border-bottom: solid 4px #ebaf68;
 }

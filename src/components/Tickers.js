@@ -46,18 +46,18 @@ class Tickers extends Component {
           percent_change_7d: "0"
         },
         {
-          id: "golem",
-          name: "Golem",
-          symbol: "GNT",
+          id: "ripple",
+          name: "Ripple",
+          symbol: "XRP",
           price_usd: "1",
           percent_change_1h: "0",
           percent_change_24h: "0",
           percent_change_7d: "0"
         },
         {
-          id: "ripple",
-          name: "Ripple",
-          symbol: "XRP",
+          id: "golem",
+          name: "Golem",
+          symbol: "GNT",
           price_usd: "1",
           percent_change_1h: "0",
           percent_change_24h: "0",
@@ -84,8 +84,8 @@ class Tickers extends Component {
           "ethereum",
           "litecoin",
           "eos",
-          "golem-network-tokens",
-          "ripple"
+          "ripple",
+          "golem-network-tokens"
         ];
         const result = response.data.filter(currency =>
           wanted.includes(currency.id)
