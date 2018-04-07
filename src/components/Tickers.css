@@ -2,9 +2,11 @@
   flex-direction: row;
   flex-wrap: wrap;
   list-style-type: none;
-  padding: 0;
+  padding: 20;
+  margin: auto;
   display: inline-flex;
   margin-bottom: auto;
+  align-items: center;
 }
 
 .attribFooter {

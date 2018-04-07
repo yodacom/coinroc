@@ -1,7 +1,7 @@
 .App {
   min-height: 100%;
   text-align: center;
-  display:-webkit-flex;
+  display: flex;
  flex-direction: column;
 }
 .App-header {

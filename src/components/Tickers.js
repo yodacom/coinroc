@@ -94,8 +94,9 @@ class Tickers extends Component {
         <ul className="tickers">{tickers}</ul>
         <p>
           Information updated every 10 seconds courtesy of coinmarketcap.com</p>
+        <a href="https://www.coinbase.com/join/594066242c5bb500a80e1419" alt="Get Free Bitcoin" >Want $10 free BitCoin?  Use this referal link </a>
 
-        <a href="http://jjblack.com" className="attribFooter" target="_blank" > <img src={YodacomLogo} className="attribLogo" alt="Yodacom.com" />Developed byYodacom</a>
+        <a href="http://jjblack.com" className="attribFooter" > <img src={YodacomLogo} className="attribLogo" alt="Yodacom.com" />Developed byYodacom</a>
       </div>
 
       // <div className="Media">
