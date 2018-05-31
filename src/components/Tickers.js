@@ -62,6 +62,33 @@ class Tickers extends Component {
           percent_change_1h: "0",
           percent_change_24h: "0",
           percent_change_7d: "0"
+        },
+        {
+          id: "zcash",
+          name: "Zcash",
+          symbol: "ZEC",
+          price_usd: "1",
+          percent_change_1h: "0",
+          percent_change_24h: "0",
+          percent_change_7d: "0"
+        },
+        {
+          id: "binance",
+          name: "Binance Coin",
+          symbol: "BNB",
+          price_usd: "1",
+          percent_change_1h: "0",
+          percent_change_24h: "0",
+          percent_change_7d: "0"
+        },
+        {
+          id: "omisego",
+          name: "OmiseGo",
+          symbol: "OMG",
+          price_usd: "1",
+          percent_change_1h: "0",
+          percent_change_24h: "0",
+          percent_change_7d: "0"
         }
       ]
     };
@@ -85,7 +112,10 @@ class Tickers extends Component {
           "litecoin",
           "eos",
           "ripple",
-          "golem-network-tokens"
+          "golem-network-tokens",
+          "zcash",
+          "binance-coin",
+          "omisego"
         ];
         const result = response.data.filter(currency =>
           wanted.includes(currency.id)
