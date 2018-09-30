@@ -1,10 +1,10 @@
-.App {
+.AppGen {
   min-height: 100%;
   text-align: center;
   display: flex;
  flex-direction: column;
 }
-.App-header {
+.AppHeader {
   background-color: #222;
   color: white;
   font-size: 1.25rem;

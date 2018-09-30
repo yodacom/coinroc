@@ -1,0 +1,31 @@
+type Query {
+  portfolio(id: ID!): Portfolio
+  portfolios:[Portfolio]
+
+
+}
+
+type Ticker {
+  id: ID!
+  coinID: String
+  name: String
+  symbol: String
+  price_usd: String
+  percent_change_1h: String
+  percent_change_24h: String
+  percent_change_7d: String
+}
+
+type Portfolio {
+  id: ID!
+  title: String
+  description: String
+  Tickers: [Ticker]
+}
+
+type User {
+  id: ID!
+  firstName: String!
+  lastName: String!
+  Portfolio: [Portfolio]
+}
